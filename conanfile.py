@@ -9,7 +9,7 @@ class SpimplConan(ConanFile):
     url = "https://github.com/kudzurunner/conan-spimpl"
     description = "A Smart Pointer to IMPLementation (i.e. Smart PIMPL or just SPIMPL)"
     settings = "os", "compiler", "build_type", "arch"
-    git_hash = "ba1b834"
+    git_hash = "8f65dcd"
 
     def configure(self):
         self.settings.clear()
